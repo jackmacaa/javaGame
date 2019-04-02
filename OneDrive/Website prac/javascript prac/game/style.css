@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  background-color: #fff;
+}
+
+.header {
+  background-color: #1b1b1b;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.header p {
+  font-family: arial;
+  font-size: 18px;
+  color: #fff;
+  padding-bottom: 4px;
+}
+
+.header h2 {
+  font-family: "Acme", sans-serif;
+  font-size: 30px;
+  color: #f8b700;
+}
+
+.interface,
+.arena,
+.enemy {
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.interface a {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.interface,
+.arena,
+.enemy h3 {
+  font-family: "Acme", sans-serif;
+  font-size: 22px;
+  color: #f8b700;
+  padding: 12px 0 4px;
+}
+
+.arena {
+  visibility: hidden;
+}
+
+.actions {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.actions a {
+  width: 33.33%;
+  padding: 10px 0px;
+  text-align: center;
+  font-size: 20px;
+  font-family: arial;
+  background-color: #000;
+  color: #fff;
+}

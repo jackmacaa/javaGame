@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta name=viewport content="width=device-width, intial-scale=1">
+        <title>Poker HU Game</title>   
+        <link href="style.css" rel="stylesheet">
+        <script src="js/gamemananger.js"></script>
+        <script src="js/player.js"></script>
+        <script src="js/enemy.js"></script>
+    </head>
+
+    <body>
+
+        <div class="header">
+            <h2>Poker HU Game</h2>
+            <p>Choose your player type below</p>
+        </div>
+
+        <div class="interface">
+            <a href="#" onclick="GameManager.setGameStart('Donkey')">
+             <img src="img/donkey.png" alt="donkey">
+             <div>
+                 <h3>Classic donk playstyle</h3>
+             </div>
+            </a>
+             <a href="#" onclick="GameManager.setGameStart('Fish')">
+                <img src="img/fish.png" alt="fish">
+                <div>
+                    <h3>Typical fish playstyle</h3>
+                </div>
+             </a>
+            <a href="#" onclick="GameManager.setGameStart('Reg')">
+                 <img src="img/reg.png" alt="reg">
+                 <div>
+                     <h3>Bad reg playstyle</h3>
+                </div>
+            </a>
+        </div>
+
+        <div class="actions">
+            
+        </div>
+
+        <div class="arena">
+            <p>∧∧∧</p>
+            <h1>HEADS UP</h1>
+            <p>∨∨∨</p>
+        </div>
+
+        <div class="enemy">
+
+        </div>
+
+    </body>
+
+</html>
